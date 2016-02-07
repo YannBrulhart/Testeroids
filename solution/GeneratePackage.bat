@@ -1,0 +1,2 @@
+.\.nuget\NuGet.exe pack Testeroids.free.nuspec -version 1.0.584 -outputdirectory "D:\Dropbox\Dropbox (Personnelle)\NugetRepo\BurningBox\Projects\Testeroids.Free"
+.\.nuget\NuGet.exe pack Testeroids.nuspec      -version 1.0.584 -outputdirectory "D:\Dropbox\Dropbox (Personnelle)\NugetRepo\BurningBox\Projects\Testeroids"

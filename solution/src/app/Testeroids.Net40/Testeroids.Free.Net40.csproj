@@ -103,8 +103,8 @@
     <Compile Include="..\Testeroids\ContextSpecification.cs">
       <Link>ContextSpecification.cs</Link>
     </Compile>
-    <Compile Include="..\Testeroids\ContextSpecificationBase.cs">
-      <Link>ContextSpecificationBase.cs</Link>
+    <Compile Include="..\Testeroids\ContextSpecificationBase.Free.cs">
+      <Link>ContextSpecificationBase.Free.cs</Link>
     </Compile>
     <Compile Include="..\Testeroids\ExceptionEnlightenment.cs">
       <Link>ExceptionEnlightenment.cs</Link>
