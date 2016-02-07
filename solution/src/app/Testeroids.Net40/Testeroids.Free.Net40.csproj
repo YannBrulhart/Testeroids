@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Testeroids.Free</RootNamespace>
-    <AssemblyName>Testeroids.Free</AssemblyName>
+    <AssemblyName>Testeroids.Free.Net40</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\</SolutionDir>
@@ -91,20 +91,8 @@
     <Compile Include="..\GlobalAssemblyInfo.free.cs">
       <Link>Properties\GlobalAssemblyInfo.free.cs</Link>
     </Compile>
-    <Compile Include="..\Testeroids\Aspects\CategorizeUnitTestFixturesAspect.cs">
-      <Link>Aspects\CategorizeUnitTestFixturesAspect.cs</Link>
-    </Compile>
-    <Compile Include="..\Testeroids\Aspects\EnforceInstanceLevelRulesAspect.cs">
-      <Link>Aspects\EnforceInstanceLevelRulesAspect.cs</Link>
-    </Compile>
     <Compile Include="..\Testeroids\Aspects\ErrorService.cs">
       <Link>Aspects\ErrorService.cs</Link>
-    </Compile>
-    <Compile Include="..\Testeroids\Aspects\InstrumentTestsAspect.cs">
-      <Link>Aspects\InstrumentTestsAspect.cs</Link>
-    </Compile>
-    <Compile Include="..\Testeroids\Aspects\MakeEmptyTestsInconclusiveAspect.cs">
-      <Link>Aspects\MakeEmptyTestsInconclusiveAspect.cs</Link>
     </Compile>
     <Compile Include="..\Testeroids\Aspects\TypeInvestigationService.cs">
       <Link>Aspects\TypeInvestigationService.cs</Link>
