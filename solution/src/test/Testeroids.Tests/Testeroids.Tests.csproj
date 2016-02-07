@@ -79,9 +79,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\app\Testeroids\Testeroids.csproj">
-      <Project>{DDA1E5C5-900C-427D-A016-9ED0EBC31432}</Project>
-      <Name>Testeroids</Name>
+    <ProjectReference Include="..\..\app\Testeroids\Testeroids.Free.csproj">
+      <Project>{dda1e5c5-900c-427d-a016-9ed0ebc31432}</Project>
+      <Name>Testeroids.Free</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
